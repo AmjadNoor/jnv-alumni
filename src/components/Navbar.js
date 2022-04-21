@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../img/logo.png';
 //import Menu from './Menu';
-//import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 export default function Navbar() {
   let navbarStyle = {
@@ -37,17 +37,14 @@ export default function Navbar() {
     "position": "relative",
     "top": "-78px",
     "paddingRight": "10px",
-  };
-
-  let openMenu = () => {
-    window.location.href = "/menu";
+    "color": "black",
   };
 
   return (
     <header style={navbarStyle}>
       <img style={logoStyle} src={logo} alt="JNV logo" />
       <h1 style={titleStyle}>JNV-KNE Alumni</h1>
-      <i style={menuStyle} onClick={openMenu} className="fa-solid fa-bars fa-2x" />
+      <Link to="/menu"><i style={menuStyle} className="fa-solid fa-bars fa-2x" /></Link>
       {/*<i id="xmark" class="fa-solid fa-xmark"></i>*/}
     </header>
   );
