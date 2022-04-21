@@ -4,24 +4,36 @@ import {Link} from 'react-router-dom';
 export default function menu() {
   
   let ulStyle = {
-    "display": "block",
     "height": "auto",
     "width": "100%",
-    "textAlign": "center",
-    "color": "cyan",
+    "position": "fixed",
+    "zIndex": "1",
+    "top": "0",
+    "bottom": "26px",
+    "marginTop": "55px",
+    "right": "0",
+    "marginBottom": "10px",
+    "backgroundColor": "#FAE8E0",
+  //  "transition": "width 10s ease-in",
+  //  "overflowX": "hidden",
+    "paddingTop": "20px",
+    "display": "flex",
+    "flexDirection": "column",
+    "alignItems": "center",
   };
   
   let listStyle = {
     "fontSize": "30px",
     "margin": "5px 0",
-    "userSelect": "none"
+    "userSelect": "none",
+    "listStyle": "none"
   };
   
   let listLinkStyle = {
     "padding": "3px",
     "userSelect": "none",
     "textDecoration": "none",
-    "color": "cyan",
+    "color": "black",
   };
   
   return (
