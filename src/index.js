@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import MyCom from './components/Mycom';
+import MyCom from './components/App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <MyCom/>
-  </React.StrictMode>
+    <React.StrictMode>
+        <MyCom/>
+    </React.StrictMode>
 );
