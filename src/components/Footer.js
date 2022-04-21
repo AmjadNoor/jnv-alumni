@@ -25,7 +25,7 @@ function Footer(props) {
   
     return (
         <footer style={footerStyle}>
-            <p style={paraStyle}>Copyright &copy; <span style={nameStyle}>Md Amjad Noor</span> 2022</p>
+            <p style={paraStyle}>Copyright &copy; 2022 All rights reserved | <span style={nameStyle}>Md Amjad Noor</span></p>
         </footer>
     );
 };
