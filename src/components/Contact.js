@@ -4,33 +4,33 @@ import Footer from './Footer';
 function Contact () {
   
     let container = {
-        "display": "block",
-        "width": "100%",
+        display: "block",
+        width: "100%",
     };
   
     let heading = {
-        "textAlign": "center",
-        "fontSize": "30px"
+        textAlign: "center",
+        fontSize: "30px",
     };
   
     let para = {
-        "color": "black",
-        "textAlign": "left",
-        "margin": "20px 20px 0 20px",
+        color: "black",
+        textAlign: "left",
+        margin: "20px 20px 0 20px",
     };
   
     let para2 = {
-        "color": "black",
-        "textAlign": "left",
-        "margin": "0 20px",
+        color: "black",
+        textAlign: "left",
+        margin: "0 20px",
     };
   
     let pointer = {
-        "fontWeight": "bold",
+        fontWeight: "bold",
     };
   
     let email = {
-        "textDecoration": "none",
+        textDecoration: "none",
     };
  
     return (

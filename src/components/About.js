@@ -4,33 +4,33 @@ import Footer from './Footer';
 function About() {
   
     let container = {
-        "display": "block",
-        "width": "100%",
+        display: "block",
+        width: "100%",
     };
   
     let heading = {
-        "textAlign": "center",
-        "fontSize": "30px"
+        textAlign: "center",
+        fontSize: "30px"
     };
   
     let videoStyle = {
-        "display": "block",
-        "width":  "90%",
-        "height": "215px",
-        "margin": "20px",
-        "boxShadow": "0 0 10px #D8A7B1"
+        display: "block",
+        width:  "90%",
+        height: "215px",
+        margin: "20px",
+        boxShadow: "0 0 10px #D8A7B1"
     };
   
     let para = {
-        "color": "black",
-        "textAlign": "left",
-        "margin": "0 20px",
+        color: "black",
+        textAlign: "left",
+        margin: "0 20px",
     };
   
     let para2 = {
-        "color": "black",
-        "textAlign": "left",
-        "margin": "0 20px 0 20px",
+        color: "black",
+        textAlign: "left",
+        margin: "0 20px 0 20px",
     };
   
     return (
